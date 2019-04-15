@@ -1,0 +1,5 @@
+alias ls='ls -G'
+alias mv='mv -i'
+alias cp='cp -i'
+alias rm='rm -i'
+alias browse-git='open $(git config remote.origin.url)'
